@@ -1,0 +1,1 @@
+![COLOUR PALETTE](https://github.com/Sanjayamagar/wt-lab-assignment/blob/master/Lab/Lab-3/screenshot.jpeg)
