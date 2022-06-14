@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RINGER RINGER ROSES</title>
+    <style>
+        .box {
+            width: 90px;
+            height: 40px;
+            border: 2.3px solid #3c3b3b;
+            border-radius: 15px;
+            margin: 10px;
+            text-align: center;
+            font-size: x-large;
+            position: absolute;
+            padding: 10px 20px;
+        }
+        
+        #Ringer1 {
+            background-color: rgb(239, 138, 138);
+            left: 30%;
+            top: 30%;
+        }
+        
+        #Ringer2 {
+            background-color: rgb(124, 242, 124);
+            top: 36%;
+            left: 36%;
+        }
+        
+        #Roses {
+            background-color: rgb(125, 233, 233);
+            top: 42%;
+            left: 42%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div id="Ringer1" class="box" style="color: black;">Ringer1</div>
+        <div id="Ringer2" class="box" style="color: black;">Ringer2</div>
+        <div id="Roses" class="box" style="color: black;">Roses</div>
+    </div>
+
+    <script>
+        document.querySelector("#Ringer1").addEventListener("mousedown", onMouseDown);
+        document.querySelector("#Ringer2").addEventListener("mousedown", onMouseDown);
+        document.querySelector("#Roses").addEventListener("mousedown", onMouseDown);
+
+        function onMouseDown(event) {
+            let element = event.target;
+
+            let shiftX = event.clientX - element.getBoundingClientRect().left;
+            let shiftY = event.clientY - element.getBoundingClientRect().top;
+
+            moveAt(event.pageX, event.pageY);
+
+            function moveAt(pageX, pageY) {
+                element.style.left = pageX - shiftX + "px";
+                element.style.top = pageY - shiftY + "px";
+            }
+
+            function onMouseMove(event) {
+                moveAt(event.pageX, event.pageY);
+            }
+
+            document.addEventListener("mousemove", onMouseMove);
+
+            function onMouseUp(event) {
+                document.removeEventListener("mousemove", onMouseMove);
+                element.onmouseup = null;
+            }
+
+            document.addEventListener("mouseup", onMouseUp);
+        }
+    </script>
+</body>
+
+</html>
