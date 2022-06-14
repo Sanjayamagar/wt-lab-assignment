@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sorting array based on Parameter</title>
+</head>
+
+<body>
+    <h1>Choose.....</h1>
+    <button class="asc">Click for Ascending</button>
+    <button class="dsc" style="margin-bottom: 25px">Click for Desending</button>
+    <br />Result: <span id="print_here"></span>
+    <script type="text/javascript">
+        let arr = [10, 20, 30, 40, 50];
+        let temp;
+        document.querySelector(".asc").addEventListener("click", function() {
+            let arr = [10, 20, 30, 40, 50];
+            for (let i = 0; i < arr.length - 1; i++) {
+                for (let j = i + 1; j < arr.length; j++) {
+                    if (arr[i] > arr[j]) {
+                        temp = arr[i];
+                        arr[i] = arr[j];
+                        arr[j] = temp;
+                    }
+                }
+            }
+            document.querySelector("#print_here").textContent = arr;
+        });
+        document.querySelector(".dsc").addEventListener("click", function() {
+            let arr = [10, 20, 30, 40, 50];
+            for (let i = 0; i < arr.length - 1; i++) {
+                for (let j = i + 1; j < arr.length; j++) {
+                    if (arr[i] < arr[j]) {
+                        temp = arr[i];
+                        arr[i] = arr[j];
+                        arr[j] = temp;
+                    }
+                }
+            }
+            document.querySelector("#print_here").textContent = arr;
+        });
+    </script>
+</body>
+
+</html>
