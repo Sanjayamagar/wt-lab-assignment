@@ -70,7 +70,6 @@ The term Virtual Host refers to the practice of running more than one web site o
    DocumentRoot "C:\xampp\htdocs\wt-lab-assignment\Assignment7\"
    ServerName Hello.local
    </VirtualHost>
-
    <VirtualHost *:80>
    DocumentRoot "C:\xampp\htdocs\wt-lab-assignment\Assignment\Assignment7\"
    ServerName Second.local
