@@ -1,0 +1,1 @@
+![FACULTY_STAFF](https://github.com/Sanjayamagar/wt-lab-assignment/blob/master/Assignment/Assignment8/Assignment8.png)
