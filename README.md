@@ -9,6 +9,8 @@
 | `ASSIGNMENT-3`     |Adding Semantic tags| [Click here](https://github.com/Sanjayamagar/wt-lab-assignment/tree/master/Assignment/Assignment3)
 | `ASSIGNMENT-4`     | Class Routine   | [Click here](https://github.com/Sanjayamagar/wt-lab-assignment/tree/master/Assignment/Assignment4)
 | `ASSIGNMENT-6` | Ringer RInger Roses | [Click here](https://github.com/Sanjayamagar/wt-lab-assignment/tree/master/Assignment/Assignment6)
+| `ASSIGNMENT-7` | PHP using XAMPP  | [Click here](https://github.com/Sanjayamagar/wt-lab-assignment/tree/master/Assignment/Assignment7)
+| `ASSIGNMENT-8` | Array using PHP | [Click here](https://github.com/Sanjayamagar/wt-lab-assignment/tree/master/Assignment/Assignment8)
 
 
 
