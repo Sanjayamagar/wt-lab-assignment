@@ -1,9 +1,9 @@
 
-# wt-lab-assignment  
+# wt-lab-assignment  :file_folder:
 
 :books:
 
-### ASSIGNMENTS 
+### ASSIGNMENTS :file_folder:
 | :diamond_shape_with_a_dot_inside: S.N      |  :diamond_shape_with_a_dot_inside: CONTENT | :diamond_shape_with_a_dot_inside: LINKS|
 | :---        |    :----:   |          ---: |
 | `ASSIGNMENT-1`     |Creating a Domain     |[Click here](https://github.com/Sanjayamagar/WT)
@@ -15,7 +15,7 @@
 | `ASSIGNMENT-8` | Array using PHP | [Click here](https://github.com/Sanjayamagar/wt-lab-assignment/tree/master/Assignment/Assignment8)
 
 
-### LAB
+### LAB  :file_folder:
 
 :desktop_computer:
 
