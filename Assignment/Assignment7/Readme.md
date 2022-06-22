@@ -75,6 +75,8 @@ The term Virtual Host refers to the practice of running more than one web site o
    ServerName Second.local
    </VirtualHost>
     `
+    
+    
   - Then to path `C:\Windows\System32\drivers\etc` and open the file `hosts.conf` in notepad(running as administrator) and add :
     
     ```
