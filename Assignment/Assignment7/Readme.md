@@ -65,7 +65,7 @@ The term Virtual Host refers to the practice of running more than one web site o
 
   - Now, open the file `httpd-vhosts.conf` from the path `C:\xampp\apache\conf\extra` in notepad(running as administrator) and add the following code.
  
-    ```
+    `
    <VirtualHost *:80>
    DocumentRoot "C:\xampp\htdocs\wt-lab-assignment\Assignment7\"
    ServerName Hello.local
@@ -74,8 +74,7 @@ The term Virtual Host refers to the practice of running more than one web site o
    DocumentRoot "C:\xampp\htdocs\wt-lab-assignment\Assignment\Assignment7\"
    ServerName Second.local
    </VirtualHost>
-
-    ```
+    `
   - Then to path `C:\Windows\System32\drivers\etc` and open the file `hosts.conf` in notepad(running as administrator) and add :
     
     ```
