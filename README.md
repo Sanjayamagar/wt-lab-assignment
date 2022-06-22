@@ -1,5 +1,6 @@
-# wt-lab-assignment
+# wt-lab-assignment  
 
+:books:
 
 ### ASSIGNMENTS 
 | S.N      |  CONTENT |  LINKS|
@@ -15,6 +16,9 @@
 
 
 ### LAB
+
+:desktop_computer:
+
 | S.N      | CONTENT | LINKS   |
 | :---        |    :----:   |          ---: |
 | `LAB-1`     |HTML-Webpage (Audio, Video and Pictures)    | [Click here](https://github.com/Sanjayamagar/wt-lab-assignment/tree/master/Lab/Lab-1)
