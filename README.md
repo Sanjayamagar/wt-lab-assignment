@@ -1,8 +1,9 @@
-# wt-lab-assignment  
+
+:diamond_shape_with_a_dot_inside: # wt-lab-assignment  
 
 :books:
 
-### ASSIGNMENTS 
+:diamond_shape_with_a_dot_inside: ### ASSIGNMENTS 
 | S.N      |  CONTENT |  LINKS|
 | :---        |    :----:   |          ---: |
 | `ASSIGNMENT-1`     |Creating a Domain     |[Click here](https://github.com/Sanjayamagar/WT)
@@ -15,7 +16,7 @@
 
 
 
-### LAB
+:diamond_shape_with_a_dot_inside: ### LAB
 
 :desktop_computer:
 
