@@ -1,10 +1,10 @@
 
-:diamond_shape_with_a_dot_inside: # wt-lab-assignment  
+# wt-lab-assignment  
 
 :books:
 
-:diamond_shape_with_a_dot_inside: ### ASSIGNMENTS 
-| S.N      |  CONTENT |  LINKS|
+### ASSIGNMENTS 
+| :diamond_shape_with_a_dot_inside: S.N      |  :diamond_shape_with_a_dot_inside: CONTENT | :diamond_shape_with_a_dot_inside: LINKS|
 | :---        |    :----:   |          ---: |
 | `ASSIGNMENT-1`     |Creating a Domain     |[Click here](https://github.com/Sanjayamagar/WT)
 | `ASSIGNMENT-2`      |Creating Github Repository     |[Click here](https://github.com/Sanjayamagar/wt-lab-assignment)
@@ -15,12 +15,11 @@
 | `ASSIGNMENT-8` | Array using PHP | [Click here](https://github.com/Sanjayamagar/wt-lab-assignment/tree/master/Assignment/Assignment8)
 
 
-
-:diamond_shape_with_a_dot_inside: ### LAB
+### LAB
 
 :desktop_computer:
 
-| S.N      | CONTENT | LINKS   |
+| :diamond_shape_with_a_dot_inside: S.N      |:diamond_shape_with_a_dot_inside:  CONTENT |:diamond_shape_with_a_dot_inside: LINKS   |
 | :---        |    :----:   |          ---: |
 | `LAB-1`     |HTML-Webpage (Audio, Video and Pictures)    | [Click here](https://github.com/Sanjayamagar/wt-lab-assignment/tree/master/Lab/Lab-1)
 | `LAB-2`    | Buttons and Borders    |  [Click here](https://github.com/Sanjayamagar/wt-lab-assignment/tree/master/Lab/Lab-2)
